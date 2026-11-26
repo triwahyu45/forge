@@ -68,7 +68,7 @@ Provides comprehensive control of FreeCAD parametric 3D CAD modeling, headless b
 
 - `[WinError 10061 / Connection Refused]` -> FreeCAD GUI is closed or the "Start RPC Server" button was not clicked. -> Verify FreeCAD is running and port 9875 is listening.
 - `[Subdirectory nesting in Mod]` -> Extracting `freecad-mcp` root into `Mod` makes FreeCAD miss `InitGui.py`. -> The directory inside `Mod` must be named `FreeCADMCP` and contain `InitGui.py` directly at top level.
-- `[Windows PowerShell execution policy blocks .ps1 shims]` -> Calling `uvx.ps1` fails with execution policy error. -> Call `C:\Users\hando\.local\bin\uvx.exe` directly.
+- `[Windows PowerShell execution policy blocks .ps1 shims]` -> Calling `uvx.ps1` fails with execution policy error. -> Call `%USERPROFILE%\.local\bin\uvx.exe` directly.
 - `[FreeCAD not in PATH]` -> Headless execution fails when `FreeCADCmd` cannot be located. -> Explicitly supply `--freecadcmd "C:\Program Files\FreeCAD 1.1\bin\FreeCADCmd.exe"` in MCP args.
 
 ## Token-Saving Shortcuts
