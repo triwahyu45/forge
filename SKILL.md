@@ -1,5 +1,5 @@
 ---
-name: freecad-forge-mcp
+name: forge
 description: Controls FreeCAD 3D parametric CAD modeling, scripting, FEM analysis, and geometry exports via the freecad-mcp server and XML-RPC addon. Use when the user asks to create 3D CAD models, automate FreeCAD, run CAD scripts, inspect parts, or execute FEM analysis.
 ---
 
