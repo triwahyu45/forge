@@ -25,7 +25,7 @@ git clone https://github.com/triwahyu45/FORGE.git ~/.claude/skills/FORGE
 
 - **Runtime / Tools**: **FreeCAD 1.1** (`FreeCAD.exe` / `FreeCADCmd.exe`), **`uv` / `uvx`**, and the **FreeCADMCP** addon installed in `%APPDATA%\FreeCAD\v1-1\Mod\FreeCADMCP\`
 - **MCP Servers**: Required: `freecad` (`freecad-mcp` via `uvx`, XML-RPC on `127.0.0.1:9875`)
-- **Related Skills**: Pairs with [`titan`](https://github.com/triwahyu45/titan) for CAD-to-MuJoCo robotics simulation
+- **Related Skills**: Pairs with [`titan`](https://github.com/triwahyu45/TITAN) for CAD-to-MuJoCo robotics simulation
 - **API Keys / Secrets**: None
 
 ```json
