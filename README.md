@@ -1,4 +1,4 @@
-# forge — FreeCAD 3D Parametric CAD & FEM Automation
+# FORGE — FreeCAD 3D Parametric CAD & FEM Automation
 
 AI Agent Skill for **Antigravity**, **Claude Code**, and **OpenAI Codex**. Controls FreeCAD 1.1 parametric 3D CAD modeling, headless Python scripting, FEM analysis, and STEP/STL exports via `freecad-mcp` and XML-RPC.
 
@@ -10,13 +10,13 @@ Clone this skill into your agent's global or project skills directory:
 
 | Agent | Global Install Path | Project-Local Path |
 | :--- | :--- | :--- |
-| **Antigravity** | `~/.gemini/config/skills/forge` | `.agents/skills/forge` |
-| **Claude Code** | `~/.claude/skills/forge` | `.claude/skills/forge` |
-| **OpenAI Codex** | `~/.codex/skills/forge` | `.agents/skills/forge` |
+| **Antigravity** | `~/.gemini/config/skills/FORGE` | `.agents/skills/FORGE` |
+| **Claude Code** | `~/.claude/skills/FORGE` | `.claude/skills/FORGE` |
+| **OpenAI Codex** | `~/.codex/skills/FORGE` | `.agents/skills/FORGE` |
 
 ```bash
 # Example (Antigravity / Claude Code / Codex — pick your path):
-git clone https://github.com/triwahyu45/forge.git ~/.claude/skills/forge
+git clone https://github.com/triwahyu45/FORGE.git ~/.claude/skills/FORGE
 ```
 
 ---
