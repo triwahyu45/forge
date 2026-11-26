@@ -24,7 +24,7 @@ Provides comprehensive control of FreeCAD parametric 3D CAD modeling, headless b
 - **Antigravity Global MCP Entry** (`Antigravity global mcp_config.json`):
   ```json
   "freecad": {
-    "command": "C:\\Users\\hando\\.local\\bin\\uvx.exe",
+    "command": "%USERPROFILE%\\.local\\bin\\uvx.exe",
     "args": [
       "freecad-mcp",
       "--freecadcmd",
