@@ -10,7 +10,7 @@ Clone this skill into your agent's global or project skills directory:
 
 | Agent | Global Install Path | Project-Local Path |
 | :--- | :--- | :--- |
-| **Antigravity** | `~/.gemini/config/skills/FORGE` | `.agents/skills/FORGE` |
+| **Antigravity** | Global Antigravity skills dir | `.agents/skills/FORGE` |
 | **Claude Code** | `~/.claude/skills/FORGE` | `.claude/skills/FORGE` |
 | **OpenAI Codex** | `~/.codex/skills/FORGE` | `.agents/skills/FORGE` |
 
